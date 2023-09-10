@@ -1,0 +1,5 @@
+.hover-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 4px;
+}
