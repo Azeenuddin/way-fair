@@ -46,22 +46,55 @@ const Header = () => {
                                         </button>
                                         <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                             <div className="offcanvas-header">
-                                                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                                                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Wayfair</h5>
                                                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                             </div>
                                             <div className="offcanvas-body">
                                                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                                     <li className="nav-item">
-                                                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                                        <a className="nav-link active" aria-current="page" href="#">Departments</a>
                                                     </li>
                                                     <li className="nav-item">
-                                                        <a className="nav-link" href="#">Link</a>
+                                                        <a className="nav-link" href="#">Sale</a>
                                                     </li>
-                                                </ul>
-                                                <form className="d-flex mt-3" role="search">
-                                                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                                    <button className="btn btn-outline-success" type="submit">Search</button>
-                                                </form>
+                                                    <hr/>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">My Account</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">My Oders</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Review My Purchases</a>
+                                                    </li>
+                                                    <hr/>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Recently Viewed</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Lists</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Design Services</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">3D Room Planer</a>
+                                                    </li>
+                                                    <hr/>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Wayfair Credit Card</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Wayfair Financing</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Gift Card</a>
+                                                    </li>
+                                                    <li className="nav-item">
+                                                        <a className="nav-link" href="#">Waifaire Professional</a>
+                                                    </li>
+                                                    <hr/>
+                                                </ul>                                               
                                             </div>
                                         </div>
                                     </div>

@@ -6,6 +6,7 @@ import AppliancesImg from "../../../assets/appliances.webp"
 import PillowsImg from "../../../assets/pillows.webp"
 import PetImg from "../../../assets/pet.webp"
 import OutdoorImg from "../../../assets/outdoor.webp"
+import kitchen from "../../../assets/kitchen-image.webp"
 
 import "./shop-products.css"
 
@@ -39,6 +40,10 @@ const ShopProducts = () => {
     {
       srcImg: OutdoorImg,
       title: "Outdoor"
+    },
+    {
+      srcImg: kitchen,
+      title: "Kitchen"
     }
   ]
   return (
