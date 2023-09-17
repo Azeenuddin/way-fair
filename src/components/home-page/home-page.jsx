@@ -12,7 +12,6 @@ import OurServices from './our-services/our-services'
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <HeroSection />
       <ShopProducts />
       <KitchenGameChanger/>

@@ -9,41 +9,51 @@ import OutdoorImg from "../../../assets/outdoor.webp"
 import kitchen from "../../../assets/kitchen-image.webp"
 
 import "./shop-products.css"
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const ShopProducts = () => {
+  const navigate = useNavigate();
   const productsData = [
     {
       srcImg: SaleImg,
-      title: "Sale"
+      title: "Sale",
+      departmentName: "Sale"
     },
     {
       srcImg: ChairImg,
-      title: "Furniture"
+      title: "Furniture",
+      departmentName:"Furniture"
     },
     {
       srcImg: ChadherImg,
-      title: "Bedding & Bath"
+      title: "Bedding & Bath",
+      departmentName:"BeddingBath"
     },
     {
       srcImg: AppliancesImg,
-      title: "Appliances"
+      title: "Appliances",
+      departmentName:"Appliances"
     },
     {
       srcImg: PillowsImg,
-      title: "Pillows"
+      title: "Pillows",
+      departmentName:"Pillows"
     },
     {
       srcImg: PetImg,
-      title: "Pet"
+      title: "Pet",
+      departmentName:"Pet"
     },
     {
       srcImg: OutdoorImg,
-      title: "Outdoor"
+      title: "Outdoor",
+      departmentName:"Outdoor"
     },
     {
       srcImg: kitchen,
-      title: "Kitchen"
+      title: "Kitchen",
+      departmentName:"Kitchen"
     }
   ]
   return (
@@ -56,21 +66,14 @@ const ShopProducts = () => {
         {
           productsData.map((item) => {
             return (
-              <div className='text-center mx-2'>
+              <div className='text-center mx-2 cursor-pinter' onClick={()=>{navigate(`/shop-departments/${item.departmentName}`)}}>
                 <img className='' height={200} src={item.srcImg} alt="sale" />
                 <h4>{item.title}</h4>
               </div>
+
             )
           })
         }
-
-        {productsData.map((y)=>{
-          return(
-            <div className="row">
-              {}
-            </div>
-          )
-        })}
 
       </div>
     </>

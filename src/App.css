@@ -5,3 +5,15 @@
 .bg-card {
     background-color: #d1d1d6 !important;
 }
+
+.cursor-pinter{
+    cursor: pointer !important;
+
+}
+
+.cursor-pinter:hover {
+    border: 1px solid rgba(0, 0, 0, .4) !important;
+    background: rgba(0, 0, 0, .2) !important;
+    border-radius: 5px !important;
+    padding: 1px;
+}
