@@ -7,9 +7,10 @@ import PillowsImg from "../../../assets/pillows.webp"
 import PetImg from "../../../assets/pet.webp"
 import OutdoorImg from "../../../assets/outdoor.webp"
 import kitchen from "../../../assets/kitchen-image.webp"
+import Organization from "../../../assets/organization.webp"
 
 import "./shop-products.css"
-import { Link, useNavigate } from 'react-router-dom';
+import { Form, Link, useNavigate } from 'react-router-dom';
 
 
 const ShopProducts = () => {
@@ -54,7 +55,13 @@ const ShopProducts = () => {
       srcImg: kitchen,
       title: "Kitchen",
       departmentName:"Kitchen"
+    },
+    {
+      srcImg: Organization,
+      title: "Organization",
+      departmentName:"organization"
     }
+    
   ]
   return (
     <>

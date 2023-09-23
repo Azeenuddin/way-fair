@@ -1,8 +1,9 @@
 import Furniture from "../../../../assets/furniture-1.webp";
 import VeganLeather from "../../../../assets/Vegan Leather.webp";
-import Lambertville  from "../../../../assets/Lambertville Upholstered Ottoman.webp";
-import Outdoor1  from "../../../../assets/ColourTree.webp";
-import Outdoor2  from "../../../../assets/ColourTree-1.webp";
+import Lambertville from "../../../../assets/Lambertville Upholstered Ottoman.webp";
+import Outdoor1 from "../../../../assets/ColourTree.webp";
+import Outdoor2 from "../../../../assets/ColourTree-1.webp";
+import Beding from "../../../../assets/bedding.webp"
 
 export const ShopDepartmentsData = [
   {
@@ -11,7 +12,7 @@ export const ShopDepartmentsData = [
     compName: "by Touch Rich",
     currentPrice: "37.88",
     oldPrice: "55.99",
-    departmentName: "Furniture"
+    departmentName: "Furniture",
   },
   {
     imgSrc: VeganLeather,
@@ -19,7 +20,7 @@ export const ShopDepartmentsData = [
     compName: "by Latitude Run",
     currentPrice: "40.88",
     oldPrice: "58.99",
-    departmentName: "Furniture"
+    departmentName: "Furniture",
   },
   {
     imgSrc: Lambertville,
@@ -27,7 +28,7 @@ export const ShopDepartmentsData = [
     compName: "by Winstom Porter",
     currentPrice: "48.88",
     oldPrice: "67.99",
-    departmentName: "Furniture"
+    departmentName: "Furniture",
   },
   {
     imgSrc: Lambertville,
@@ -35,20 +36,30 @@ export const ShopDepartmentsData = [
     compName: "by Winstom Porter",
     currentPrice: "48.88",
     oldPrice: "67.99",
-    departmentName: "Furniture"
+    departmentName: "Furniture",
   },
   {
     imgSrc: Outdoor1,
     productName: "ColourTree Sun Shade",
     compName: "by ColurTree",
     currentPrice: "70.88",
-    departmentName: "Outdoor"
+    oldPrice: "55.99",
+    departmentName: "Outdoor",
   },
   {
     imgSrc: Outdoor2,
     productName: "ColourTree Sun Shade",
     compName: "by ColurTree",
     currentPrice: "80.88",
-    departmentName: "Outdoor"
+    oldPrice: "55.99",
+    departmentName: "Outdoor",
+  },
+  {
+    imgSrc: Beding,
+    productName: "Hinch Bed Runer",
+    compName: "by Ebern Design",
+    currentPrice: "80.88",
+    oldPrice: "55.99",
+    departmentName: "BeddingBath",
   },
 ];
